@@ -8,10 +8,10 @@
 window.onscroll = function () { myFunction() };
 
 // Get the div botones
-var divBotones = document.getElementById("botones");
+let divBotones = document.getElementById("botones");
 
 // Get the offset position of the navbar
-var sticky = divBotones.offsetTop;
+let sticky = divBotones.offsetTop;
 
 // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
